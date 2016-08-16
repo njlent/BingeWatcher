@@ -265,3 +265,12 @@ color:#7e7e7e; /* light  grey            */
 .link {
     text-decoration:none;
 }
+
+.usermenu_bttn {
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:128px;
+    width:98px;
+    z-index:10;
+}
