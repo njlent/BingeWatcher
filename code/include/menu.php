@@ -23,9 +23,3 @@
         </div>
 
 <!-- header_end -->
-
-<script>
-$(function() {
-  $('headmenu a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
-});
-</script>
