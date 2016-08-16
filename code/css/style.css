@@ -1,0 +1,267 @@
+
+body {
+  background-color:#0c0d0f;
+}
+
+.colors {
+color:#7e7e7e; /* light  grey            */
+color:#1a83ef; /* OT     blue           */
+color:#ef1a51; /* bright red            */
+color:#111215; /* bright backgroundblue */
+color:#0c0d0f; /* dark   backgroundblue */
+}
+
+.blue {
+color:#1a83ef; /* OT     blue           */
+}
+
+.red {
+color:#ef1a51; /* bright red            */
+}
+
+.grey {
+color:#7e7e7e; /* light  grey            */
+}
+
+
+.headr {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 214px;
+  background-color: rgba(22, 23, 27, 0.949);
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.3);
+  z-index: 153;
+}
+
+.headline {
+  position:absolute;
+  text-align:center;
+  top:59px;
+  width:100%;
+  font-family:LatoWebBold;
+  font-size:30px;
+  letter-spacing:6px;
+  text-transform:uppercase;
+}
+
+.headmenu {
+  position:absolute;
+  top:114px;
+  height:60px;
+  width:100%;
+  overflow-x:scroll;
+  overflow-y:hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.headmenu a {
+  position:relative;
+  top:0px;
+  margin-top:0px;
+  padding-top:0px;
+}
+
+.headmenu a:hover {
+  position:relative;
+  top:0px;
+  margin-top:0px;
+  padding-top:0px;
+  color:#ef1a51;
+  border-style:solid;
+  border-width:0px 0px 4px 0px;
+  border-color:#ef1a51;
+}
+
+.menuitem {
+  position:relative;
+  left:60px;
+  top:0px;
+  margin-top:0px;
+  padding-top:0px;
+  padding-bottom:0px;
+  padding-left:30px;
+  padding-right:30px;
+  line-height:56px;
+  height:56px;
+  width:auto;
+  color:#fff;
+  font-family:LatoWebBold;
+  font-size:22px;
+  letter-spacing:3px;
+  text-transform:uppercase;
+  overflow-x:scroll;
+  overflow-y:hidden;
+  white-space: nowrap;
+  display: inline-block;
+  border-style:solid;
+  border-width:0px 0px 4px 0px;
+  border-color:rgba(0,0,0,0);
+  text-decoration:none;
+}
+
+.menuspace {
+  position:relative;
+  left:60px;
+  top:0px;
+  margin-top:0px;
+  padding-top:0px;
+  padding-bottom:0px;
+  line-height:56px;
+  height:56px;
+  width:67.5%;
+  color:#fff;
+  font-family:LatoWebBold;
+  font-size:22px;
+  letter-spacing:3px;
+  text-transform:uppercase;
+  overflow-x:scroll;
+  overflow-y:hidden;
+  white-space: nowrap;
+  display: inline-block;
+  border-style:solid;
+  border-width:0px 0px 4px 0px;
+  border-color:rgba(0,0,0,0);
+}
+
+.active {
+  color:#ef1a51;
+  border-style:solid;
+  border-width:0px 0px 4px 0px;
+  border-color:#ef1a51;
+}
+
+
+
+
+.contentspacer {
+    position:float;
+    width:100%;
+    height:215px;
+    opacity:0;
+}
+
+.announcement {
+    position:float;
+    width:100%;
+    height:163px;
+    overflow:hidden;
+}
+
+.annicon {
+    position:float;
+    padding-top:31px;
+    padding-left:31px;
+    float:left;
+}
+
+.anntext {
+    position:relative;
+    right:0px;
+    top:38px;
+    left:31px;
+    color:#fff;
+    font-size:30px;
+    font-family:LatoWebBold;
+    overflow: hidden;
+    text-transform:uppercase;
+    white-space: nowrap;
+    letter-spacing:3px;
+}
+
+.anndesc {
+    position:relative;
+    margin-right:32px;
+    top:38px;
+    left:31px;
+    color:#7e7e7e;
+    font-size:24px;
+    font-family:LatoWeb;
+    overflow:scroll;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    letter-spacing:3px;
+}
+
+.series {
+    position:float;
+    width:100%;
+    height:247px;
+    overflow:hidden;
+}
+
+.sericon {
+    position:float;
+    padding-top:31px;
+    padding-left:31px;
+    float:left;
+}
+
+.seriname {
+    position:relative;
+    right:0px;
+    top:38px;
+    left:31px;
+    color:#fff;
+    font-size:30px;
+    font-family:LatoWebBold;
+    overflow: hidden;
+    text-transform:uppercase;
+    white-space: nowrap;
+    letter-spacing:3px;
+}
+
+.seridesc {
+    position:relative;
+    margin-right:32px;
+    top:38px;
+    left:31px;
+    color:#7e7e7e;
+    font-size:24px;
+    font-family:LatoWeb;
+    overflow:scroll;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    letter-spacing:3px;
+}
+
+.seriepisodes {
+    position:absolute;
+    margin-top:95px;
+    height:59px;
+    left:0px;
+    right:0px;
+    overflow: scroll;
+    text-transform:uppercase;
+    white-space: nowrap;
+    letter-spacing:3px;
+    -webkit-overflow-scrolling: touch;
+}
+
+.seriepisode {
+    position:relative;
+    margin-right:30px;
+    left:31px;
+    color:#fff;
+    font-size:32px;
+    font-family:LatoWebBold;
+    overflow:scroll;
+    text-decoration:none;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    letter-spacing:3px;
+}
+
+.contentbg:nth-child(even) {
+    background-color: #111215;
+}
+
+.contentbg:nth-child(odd) {
+    background-color: #0c0d0f;
+}
+
+.link {
+    text-decoration:none;
+}
